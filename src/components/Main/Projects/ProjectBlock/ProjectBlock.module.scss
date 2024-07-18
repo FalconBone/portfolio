@@ -1,0 +1,12 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+
+    &:nth-of-type(2n){
+        flex-direction: row-reverse;
+    }
+
+    margin-bottom: 20px;
+    
+}
